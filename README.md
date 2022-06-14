@@ -4,4 +4,4 @@
 
 - [x] initialize the Node project 
 - [x] install express
-- [ ] create server
+- [x] create server
