@@ -1,13 +1,20 @@
+// Imports
 const express = require("express")
+
+// Config
 const app = express()
-const port = 3000
 
-app.get("/", (req, res) => {
-    res.send("Hello World!")
-    })
 
-app.listen(port,() => {
-    console.log(`Example app listening on port ${port}`)
+// routes
+app.get("/Products", function(req, res){
+    res.send("Products")
 })
+
+app.get("/Products/:id", function(req, res){
+    res.send(`Products ${req.params.id}`)
+})
+
+// Listen server
+app.listen(3000)
 
 
