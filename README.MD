@@ -3,5 +3,5 @@
 ## To do
 
 - [x] initialize the Node project 
-- [ ] install express
+- [x] install express
 - [ ] create server

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/karencarlipereira/products-api/issues"
   },
-  "homepage": "https://github.com/karencarlipereira/products-api#readme"
+  "homepage": "https://github.com/karencarlipereira/products-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
